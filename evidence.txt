@@ -1,0 +1,4 @@
+chef=alibi:12:30,where:kitchen,item:knife,motive:debt
+driver=alibi:12:10,where:garage,item:rope,motive:jealousy
+neighbor=alibi:12:20,where:garden,item:shovel,motive:revenge
+culprit=driver
