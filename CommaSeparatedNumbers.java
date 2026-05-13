@@ -1,13 +1,13 @@
 import java.util.Scanner;
 public class CommaSeparatedNumbers {
 	public static void main (String[] args ) {
-Scanner x = new Scanner(System.in);
-x.useDelimiter(",|\n");
+Scanner scanner = new Scanner(System.in);
+scanner.useDelimiter(",|\n");
 System.out.print("Please enter five integers in a line separated by commas "); int integer1 = x.nextInt();
-int integer2 = x.nextInt();
-int integer3 = x.nextInt();
-int integer4 = x.nextInt();
-int integer5 = x.nextInt();
+int integer2 = scanner.nextInt();
+int integer3 = scanner.nextInt();
+int integer4 = scanner.nextInt();
+int integer5 = scanner.nextInt();
 int sum = integer1 + integer2 + integer3 + integer4 + integer5;
 double average = (integer1 + integer2 + integer3 + integer4 + integer5) /5.0;
 int weightedSum = 1 * integer1 + 2 * integer2 + 3 * integer3 + 4 * integer4 + 5 * integer5;
